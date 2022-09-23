@@ -28,7 +28,6 @@ def speak(text):
 
 
 camera = cv2.VideoCapture(0)
-
 def capture_image():
     ret,frame = camera.read()
     if ret == True :
